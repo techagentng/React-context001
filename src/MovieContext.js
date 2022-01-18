@@ -1,7 +1,7 @@
-import {useState, createContext} from 'react'
+import React, {useState, createContext} from 'react'
 export const MovieContext = createContext();
 export const MovieProvider = (props)=>{
-    const [movies, setMovie] = useState([
+    const [movies, setMovies] = useState([
         {
           name:"doe",
           price:300,
@@ -24,8 +24,8 @@ export const MovieProvider = (props)=>{
         },
       ])
     return (
-        <MovieContext.Provider>
+        <MovieContext.Provider value={[movies, setMovies]}>
             {props.children}
         </MovieContext.Provider>
     );
-} 
+}; 

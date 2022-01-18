@@ -4,7 +4,7 @@ import './index.css';
 import Movie from './App';
 import * as serviceWorker from './serviceWorker';
 import Nav from './Nav';
-import New from './component/new';
+import New from './component/Nav';
 
 ReactDOM.render(
   <React.StrictMode>

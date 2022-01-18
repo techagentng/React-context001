@@ -1,14 +1,16 @@
 import React from 'react';
 import MovieList from './allmovies'
+import MovieContext from './MovieContext'
 import './App.css';
 
 function Movie() {
  
   return (
     <>
-    <div className="App">
+    <MovieContext>    <div className="App">
      <MovieList />
     </div>
+    </MovieContext>
     </>
   );
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 
-function LiComp(props) {
+function LiComp({name, price}) {
  
   return (
     <>
     <div className="App">
-      <h2>{props.name}</h2>
+      <h2>{name}</h2>
+      <h2>{price}</h2>
     </div>
     </>
   );

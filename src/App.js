@@ -10,9 +10,8 @@ function Movie() {
     <>
     <MovieProvider>
     <div className="App">   
-    
-     <MovieList />
-     <Form /> 
+     <MovieList /> 
+     <Form />
     </div>
     </MovieProvider>
     </>

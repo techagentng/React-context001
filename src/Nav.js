@@ -1,11 +1,12 @@
 import React from 'react';
+import './App.css';
 
 
 function Nav(){
   return(
-    <div>
+    <div className="nav">
       <h1>
-        Hello world
+      Navigation Navigation Navigation Navigation
       </h1>
     </div>
   );

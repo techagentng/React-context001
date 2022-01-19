@@ -4,7 +4,7 @@ import '../App.css';
 function Nav() {
     return (
       <div className="nav">
-      <h2>Nnam</h2>
+      <h2>Navigation Navigation Navigation Navigation</h2>
       </div>
     );
   }

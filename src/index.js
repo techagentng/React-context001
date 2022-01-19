@@ -4,13 +4,11 @@ import './index.css';
 import Movie from './App';
 import * as serviceWorker from './serviceWorker';
 import Nav from './Nav';
-import New from './component/Nav';
 
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
     <Movie />
-    <New />
   </React.StrictMode>,
   document.getElementById('root')
 );
